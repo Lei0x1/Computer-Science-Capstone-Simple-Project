@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Capstone Project</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>🎮 Video Game Quiz</h1>
+        <p>Think you know games? Test your gaming knowledge here!</p>
+    </header>
+
+    <main>
+        <section class="quiz-section">
+            <h2>🧠 Quiz</h2>
+            <div id="question-container">
+                <p id="question-text">Press "Start" to begin the quiz.</p>
+                <div id="answers"></div>
+            </div>
+            
+            <button id="start-btn">Start</button>
+            <button id="next-btn" class="hidden">Next</button>
+        </section>
+
+        <section class="result-section hidden">
+            <h2>✅ Your Score</h2>
+            <p id="result-message"></p>
+            <button id="restart-btn" class="hidden">Restart Quiz</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Daniel – Capstone Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
